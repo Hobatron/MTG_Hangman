@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<!-- up arrow provides the answer in console 
+     down arrow provides more guesses, 1 at a time
+     Good luck!!!
+-->
+<head><link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>MTG: Hangman</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/scripts.js"></script>
+</head>
+
+<body>
+    <div class="container topLogo" id="splashScreen">
+        <img class="logo" src="assets/img/Logo.png" />
+        <img class="click2p logo" src="assets/img/ClicktoPlay.png" />
+    </div>
+    <div class="container" id="gameMain">
+        <img id="cardIMG" src="assets/img/CardBack.png" />
+        <div id="guess">
+            <p id="letterCount"></p>
+            <p style="font-size: 30px">You get 7 incorrect guesse:</p>
+            <p id="badGuesses"></p>
+        </div>
+    </div>
+
+</body>
+
+</html>

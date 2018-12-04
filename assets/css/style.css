@@ -1,0 +1,54 @@
+body {
+    background-color: #000;
+}
+
+
+/*Splash Screen*/
+.logo {
+    width: 100%;
+}
+.topLogo {
+    position: relative;
+    margin-top: 10%;
+}
+
+.click2p {
+    display: none;
+    -webkit-animation: pulsate 1.75s ease-out;
+    -webkit-animation-iteration-count: infinite;
+}
+
+/*Main Game*/
+#gameMain {
+    margin-top: 25px;
+    height: 800px;
+    width: 530px;
+    display: none;
+    border:  rgb(40, 40, 40);
+    border-style: dashed;
+    color: rgb(40, 40, 40);
+    font-family: 'Nova Mono', sans-serif;
+    font-size: 45px;
+}
+
+#cardIMG {
+    width: 55%;
+    margin: 35px 22.5% 10% 22.5%;
+}
+
+#guess {
+    text-align: center;
+}
+
+
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.3;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.3;
+    }
+}
