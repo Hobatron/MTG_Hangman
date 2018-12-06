@@ -19,13 +19,11 @@ $(document).ready(function () {
         if (rndCard.name.length >= 18) {
             setTimeout(newRndCard(), 50);
         }
-        // test();
+
         $(".click2p").fadeIn(1500);
         gameIsReady = true;
     }
-    function test() {
-
-    }
+    //Pulling a random card from the skryfall api
     function newRndCard() {
         $.getJSON('https://api.scryfall.com/cards/random?q=-type%3Aland+legal%3Alegacy+not%3Atoken+not%3Asplit+not%3Atransform', function (data) {
             saveCard(data);

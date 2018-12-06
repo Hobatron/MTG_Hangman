@@ -10,6 +10,7 @@ body {
 .topLogo {
     position: relative;
     margin-top: 10%;
+    max-width: 640px;
 }
 
 .click2p {
@@ -24,9 +25,9 @@ body {
     height: 800px;
     width: 530px;
     display: none;
-    border:  rgb(40, 40, 40);
+    border:  rgb(104, 102, 102);
     border-style: dashed;
-    color: rgb(40, 40, 40);
+    color: rgb(104, 102, 102);
     font-family: 'Nova Mono', sans-serif;
     font-size: 45px;
 }
@@ -38,8 +39,8 @@ body {
 
 #guess {
     text-align: center;
+    float: left;
 }
-
 
 @-webkit-keyframes pulsate {
     0% { 
